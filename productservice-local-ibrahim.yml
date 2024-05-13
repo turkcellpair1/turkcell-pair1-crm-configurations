@@ -1,4 +1,5 @@
 spring:
+  # add kafka configurations below spring
   datasource:
     # This field is customizable.
     url: jdbc:postgresql://localhost:5432/crm
