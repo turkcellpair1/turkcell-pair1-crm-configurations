@@ -14,9 +14,6 @@ spring:
             predicates:
               - Path=/eureka/**
           
-server:
-  # This field is customizable.
-  port: 8080
 eureka:
   client:
     serviceUrl:
