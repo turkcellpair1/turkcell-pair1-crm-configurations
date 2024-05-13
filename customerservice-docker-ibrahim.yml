@@ -14,9 +14,7 @@ spring:
     hibernate:
       ddl-auto: update
 
-server:
-  # This field is customizable.
-  port: 8082
+
 
 eureka:
   client:
