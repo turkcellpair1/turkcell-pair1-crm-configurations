@@ -1,5 +1,7 @@
+# This field port section is customizable.
 server:
   port: 8888
+
 eureka:
   client:
     serviceUrl:
