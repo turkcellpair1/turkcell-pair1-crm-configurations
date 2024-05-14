@@ -4,13 +4,13 @@ spring:
       mvc:
         routes:
           - id: eureka
-            uri: http://discoveryserver:8888
+            uri: http://discovery-server:8888
             predicates:
               - Path=/eureka/web
             filters:
               - SetPath=/
           - id: eureka-static
-            uri: http://discoveryserver:8888
+            uri: http://discovery-server:8888
             predicates:
               - Path=/eureka/**
 server:
@@ -20,6 +20,6 @@ eureka:
   client:
     serviceUrl:
       # This field port is customizable, if it changed eureka routes must be changed as well.
-      defaultZone: http://discoveryserver:8888/eureka/
+      defaultZone: http://discovery-server:8888/eureka/
     registerWithEureka: true
     fetchRegistry: true
