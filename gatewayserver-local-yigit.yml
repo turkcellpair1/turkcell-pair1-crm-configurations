@@ -19,7 +19,7 @@ spring:
           
 server:
   # This field is customizable.
-  port: 8080
+  port: 8090
 
 eureka:
   client:
