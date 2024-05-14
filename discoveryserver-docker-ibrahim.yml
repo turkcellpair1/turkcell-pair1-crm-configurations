@@ -1,6 +1,8 @@
 spring:
   application:
     name: discoveryserver
+service:
+  port: 8888
 eureka:
   client:
     serviceUrl:
@@ -8,3 +10,4 @@ eureka:
       defaultZone: http://discoveryserver:8888/eureka/
     registerWithEureka: false
     fetchRegistry: false
+  
