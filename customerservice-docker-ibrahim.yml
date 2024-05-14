@@ -8,7 +8,6 @@ ps:
 spring:
   # add kafka configurations below spring
   datasource:
-    # This field is customizable.
     url: jdbc:postgresql://postgres:${ps.port}/crm
     # This field is customizable.
     username: postgres
@@ -21,6 +20,7 @@ spring:
     hibernate:
       ddl-auto: update
 
+# local host service port can be changed
 server:
   port: 8082
 
