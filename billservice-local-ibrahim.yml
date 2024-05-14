@@ -1,5 +1,7 @@
+# This field is customizable.
 ds:
   port: 8888
+# This field is customizable.
 ps:
   port: 5432
 
