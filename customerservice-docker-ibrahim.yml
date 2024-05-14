@@ -28,6 +28,6 @@ eureka:
   client:
     serviceUrl:
       # This field port is customizable, if it changed eureka routes must be changed as well.
-      defaultZone: http://localhost:${ds.port}/eureka/
+      defaultZone: http://discovery-server:${ds.port}/eureka/
     registerWithEureka: true
     fetchRegistry: true
