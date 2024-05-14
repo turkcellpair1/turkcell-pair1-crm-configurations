@@ -5,6 +5,6 @@ eureka:
   client:
     serviceUrl:
       # This field port section is customizable.
-      defaultZone: http://localhost:8888/eureka/
+      defaultZone: http://localhost:${server.port}/eureka/
     registerWithEureka: false
     fetchRegistry: false
