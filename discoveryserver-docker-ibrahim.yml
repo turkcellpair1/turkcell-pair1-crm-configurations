@@ -4,7 +4,7 @@ eureka:
   client:
     serviceUrl:
       # This field port section is customizable.
-      defaultZone: http://discoveryserver:${server.port}/eureka/
+      defaultZone: http://discovery-server:${server.port}/eureka/
     registerWithEureka: false
     fetchRegistry: false
   
