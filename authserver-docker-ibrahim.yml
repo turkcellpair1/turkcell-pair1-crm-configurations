@@ -22,7 +22,7 @@ spring:
 # Local host server port, can be changed
 server:
   # This field is customizable.
-  port: 9999
+  port: 8089
 
 jwt:
   expiration: 60000000
