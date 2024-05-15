@@ -6,7 +6,7 @@ spring:
     gateway:
       mvc:
         routes:
-          - id: authserver
+          - id: auth-server
             uri: http://localhost:9999
             predicates:
               - Path=/api/v1/auth/**
