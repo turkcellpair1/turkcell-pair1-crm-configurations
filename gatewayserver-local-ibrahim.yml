@@ -7,7 +7,7 @@ spring:
       mvc:
         routes:
           - id: auth-server
-            uri: http://localhost:9999
+            uri: http://localhost:8089
             predicates:
               - Path=/api/v1/auth/**
           - id: eureka
