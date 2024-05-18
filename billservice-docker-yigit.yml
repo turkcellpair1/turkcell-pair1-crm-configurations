@@ -3,7 +3,7 @@ ds:
   port: 8888
 # This field is customizable.
 ps:
-  port: 5432
+  port: 5433
 
 
 spring:
@@ -14,7 +14,7 @@ spring:
     # This field is customizable.
     username: postgres
     # This field is customizable.
-    password: 12345
+    password: test
   jpa:
     properties:
       hibernate:
