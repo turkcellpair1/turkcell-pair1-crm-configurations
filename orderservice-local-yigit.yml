@@ -1,7 +1,7 @@
 ds:
   port: 8888
 ps:
-  port: 5432
+  port: 5433
 
 spring:
   # add kafka configurations below spring
@@ -11,7 +11,7 @@ spring:
     # This field is customizable.
     username: postgres
     # This field is customizable.
-    password: 12345
+    password: test
   jpa:
     properties:
       hibernate:
