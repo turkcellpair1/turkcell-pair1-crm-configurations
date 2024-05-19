@@ -6,6 +6,10 @@ spring:
     gateway:
       mvc:
         routes:
+          - id: customerservice
+            uri: lb://customerservice
+            predicates:
+              - Path=/api/v1/customers/**
           - id: eureka
             uri: http://localhost:${ds.port}
             predicates:
